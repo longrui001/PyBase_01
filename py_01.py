@@ -120,7 +120,8 @@ fib(3)
 #可直接作用于for循环的有 1. list，str，tuple，dict，set
 # 2. generator
 #可直接用for循环的称为Iterable，可迭代对象
-from collections import Iterable
+from collections.abc import Iterable
 isinstance((x for x in range(1,10)),Iterable)
 
 ###可以被next()调用并返回下一个对象的成为迭代器 Iterator
+
