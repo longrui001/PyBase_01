@@ -54,5 +54,17 @@ def count():
         fs.append(f)
     return fs
 
-f1 = count()
+f1 = count
+f1()
+
+def now():
+    print('2020-08-30')
+
+fn = now
+fn()
+
+
+fn.__name__
+
+
 
